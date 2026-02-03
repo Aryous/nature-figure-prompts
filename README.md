@@ -6,7 +6,26 @@ A Claude Code skill for creating publication-quality scientific figure prompts f
 
 ## Overview
 
-This skill helps researchers generate detailed prompts for AI image generation tools (like Midjourney, DALL-E, or Gemini) to create scientific figures suitable for high-impact journal publications.
+This skill helps researchers generate detailed prompts for AI image generation tools to create scientific figures suitable for high-impact journal publications (Nature/Cell/Science).
+
+## Suitable For
+
+**Research Types:**
+- Factorial experiments → Factor matrix diagrams
+- Dose-response studies → Dose-response curves
+- Mechanism studies → Molecular pathway diagrams
+- Comparative studies → Side-by-side comparison figures
+
+**Research Fields:**
+- Biomedical sciences (metabolism, gene expression, signaling pathways)
+- Agricultural sciences (animal/plant nutrition, growth studies)
+- Pharmacology (drug effects, toxicology)
+- Immunology (inflammatory responses, immune pathways)
+
+**Analysis Levels:**
+- Whole organism (growth, survival, performance)
+- Tissue/organ (histology, enzyme activity)
+- Molecular (gene expression, protein levels, metabolites)
 
 ## Features
 
