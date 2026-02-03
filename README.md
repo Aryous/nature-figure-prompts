@@ -1,5 +1,7 @@
 # Nature Figure Prompts
 
+**English | [中文](README_zh.md)**
+
 A Claude Code skill for creating publication-quality scientific figure prompts following Nature/Cell journal standards.
 
 ## Overview
@@ -16,6 +18,22 @@ This skill helps researchers generate detailed prompts for AI image generation t
   - Metabolic Pathway Diagrams
 - **Color Standards**: Colorblind-friendly palettes with specific HEX values
 - **Quality Checklist**: Ensure figures meet publication standards
+
+## Dependencies
+
+This skill **generates prompts only**. To create actual images from these prompts, you need:
+
+- **[scientific-schematics](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/scientific-schematics)** - Creates publication-quality scientific diagrams using Mermaid/D2/SVG
+
+Install the dependency from [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills):
+
+```bash
+# Clone the scientific-skills repository
+git clone https://github.com/K-Dense-AI/claude-scientific-skills.git
+
+# Copy scientific-schematics to your skills directory
+cp -r claude-scientific-skills/scientific-skills/scientific-schematics .claude/skills/
+```
 
 ## Installation
 
