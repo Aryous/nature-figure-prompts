@@ -23,7 +23,9 @@ This skill helps researchers generate detailed prompts for AI image generation t
 
 This skill **generates prompts only**. To create actual images from these prompts, you need:
 
-- **[scientific-schematics](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/scientific-schematics)** - Creates publication-quality scientific diagrams using Mermaid/D2/SVG
+- **[scientific-schematics](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/scientific-schematics)** - AI-powered diagram generation using Nano Banana Pro with Gemini 3 Pro quality review. Features smart iterative refinement with document-type quality thresholds (journal: 8.5/10, poster: 7.0/10, etc.)
+
+> **Note:** Requires [OpenRouter API key](https://openrouter.ai/keys) for AI image generation.
 
 Install the dependency from [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills):
 

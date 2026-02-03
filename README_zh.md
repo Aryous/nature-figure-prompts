@@ -23,7 +23,9 @@
 
 本技能**仅生成提示词**。要根据这些提示词创建实际图像，您需要：
 
-- **[scientific-schematics](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/scientific-schematics)** - 使用 Mermaid/D2/SVG 创建出版级科学示意图
+- **[scientific-schematics](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/scientific-schematics)** - 基于 AI 的图像生成，使用 Nano Banana Pro 生成图像，Gemini 3 Pro 进行质量评审。支持智能迭代优化，根据文档类型设置不同的质量阈值（期刊论文: 8.5/10，海报: 7.0/10 等）
+
+> **注意：** 需要 [OpenRouter API 密钥](https://openrouter.ai/keys) 才能使用 AI 图像生成功能。
 
 从 [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) 安装依赖：
 
